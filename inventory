@@ -1,4 +1,8 @@
-vm1
+[web_servers]
+vm1 
 vm2
-vm3
-vm4
+vm4 
+[db_servers]
+vm3 
+[file_servers]
+vm4 

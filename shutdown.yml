@@ -1,0 +1,11 @@
+---
+
+- hosts: vm1 vm2 
+  become: true
+  pre_tasks:
+
+- name: Shutdown Linux Servers
+  hosts: vm1 vm2
+  tasks:
+  - name: Reboot
+    reboot: 
